@@ -34,7 +34,7 @@ sf = Salesforce(username='neil.cameron@lloydsbanking.com.devpoc1', password='xxx
 relative_path = os.path.dirname(os.path.abspath(__file__))
 
 # Read test cases from CSV
-test_cases = pd.read_csv(os.path.join(relative_path, 'tests3.csv'))
+test_cases = pd.read_csv(os.path.join(relative_path, 'tests.csv'))
 
 assert not test_cases.empty, "Test cases dataframe is empty. Check your 'tests.csv' file."
 assert all(x in test_cases.columns for x in ['Test Name', 'Bigquery SQL', 'salesforce SQL', 'bigquery index', 'salesforce index', 'execute']), "Not all columns found in the dataframe. Check your 'tests.csv' file."
