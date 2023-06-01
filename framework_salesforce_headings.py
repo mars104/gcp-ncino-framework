@@ -27,7 +27,7 @@ import collections
 client = bigquery.Client()
 
 
-sf = Salesforce(username='neil.cameron@lloydsbanking.com.devpoc1', password='Halloween0234$', consumer_key='3MVG9Lf04EwncL7mm2UlskTO40ui_qcxDAmOjuosawNS3nJmol3eF4UHn0tl3NmFi5lxAYEdLW06RYFLEzVf1', consumer_secret='ED185EBE9BE8184EBC6ED9F69236868B749A86168EE893382FA0AD92480FD8D0', domain='test')
+sf = Salesforce(username='neil.cameron@lloydsbanking.com.devpoc1', password='xxxx$', consumer_key='xxx', consumer_secret='xxx', domain='test')
 
 
 
