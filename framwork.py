@@ -27,7 +27,7 @@ import collections
 client = bigquery.Client()
 
 
-sf = Salesforce(username='neil.cameron@lloydsbanking.com.devpoc1', password='xxxxx$', consumer_key='yourkey', consumer_secret='ED185EBE9BE8184EBC6ED9F69236868B749A86168EE893382FA0AD92480FD8D0', domain='test')
+sf = Salesforce(username='x.x@lloydsbanking.com.devpoc1', password='xxxxx$', consumer_key='yourkey', consumer_secret='x', domain='test')
 
 
 # Define the relative path
